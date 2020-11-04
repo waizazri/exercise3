@@ -9,9 +9,24 @@ package programming2;
  *
  * @author USER
  */
-public class workskills {
-    public void printWskills(){
-     System.out.println ("Skills  : \n1)Graphic Designer \n2)Photographer \n3)Java, HTML & css \n4)Video Editor");    
+public class  workskills {
     
+ 
+    String skill;
+    String language;
+    workskills(){
+        
+     
+     this.skill = "Skills  : \n1)Adobe Illustrator \n2)Photographer \n3)Adobe Premier \n4)C++ & Java"; 
+     this.language ="Languages  :\n1)Bahasa Melayu \n2)English";
 }
+    workskills(String x, String y){
+        this.skill = x;
+        this.language = y;
+    }
+
+     public void printworkskills(){
+    System.out.println("Skills :"+ skill );
+     System.out.println("Languages  :"+ language);
+     }
 }

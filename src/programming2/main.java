@@ -18,12 +18,18 @@ public class main {
 	cgpa c = new cgpa();
 	workskills d = new workskills();
         workexperiences e  = new  workexperiences();
+        cgpav2 f = new cgpav2();
+        cgpav3 g = new cgpav3();
         
 	a.printBiodatas();
         b.printGPA();
         c.printCGPA();
-        d.printWskills();
+        d.printworkskills();
         e.printExperience();
+        f.printCGPA();
+        f.printGPA();
+        f.calculateCGPA();
+        g.printCgpa(args);
     }
     
 }
