@@ -35,6 +35,17 @@ public class ProtonGen {
         this.tyre ="Dunlop";
     }
     
+    public void windows(){
+        System.out.println("Windows type  :"+windows);
+    }
+    
+    public void lamp(){
+        System.out.println("Lamp type  :"+lamp);
+    }
+    
+    public void tyre(){
+        System.out.println("Tyre type  :"+tyre);
+    }
     public void printProtonGen(){
         System.out.println("Windows type  :"+windows);
         System.out.println("Lamp type  :"+lamp);

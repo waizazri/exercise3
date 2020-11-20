@@ -14,8 +14,17 @@ public class main {
         System.out.println("Windows type (Encapsulation)  :"+a.getWindows());
         
         //no Encapsulation
-        a.printProtonGen();
+        //a.printProtonGen();
+        a.windows();
+        a.lamp();
+        a.tyre();
+       
+        System.out.println("                                                     This Is Proton Myvi Section");
         
+        ProtonMyvi b = new ProtonMyvi();
+        b.windows();
+        b.lamp();
+        b.tyre();
         
     }
 }
