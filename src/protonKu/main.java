@@ -10,8 +10,8 @@ public class main {
         a.setWindows("Auto Windows");
         a.setLamp("LED LIGHT");
         a.setTyre("Original Brand Tyre");
-       
-        System.out.println("Windows type  :"+a.getWindows());
+        System.out.println("This Is Proton Generic Section");
+        System.out.println("Windows type (Encapsulation)  :"+a.getWindows());
         
         //no Encapsulation
         a.printProtonGen();
