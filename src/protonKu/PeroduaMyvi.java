@@ -2,15 +2,22 @@
 package protonKu;
 
 
-public class ProtonMyvi extends ProtonGen {
+public class PeroduaMyvi extends CarGeneric {
     String antenna, sidemirrors;
     
-    ProtonMyvi(){
+    PeroduaMyvi(){
         this.antenna ="Shark Fin Antenna";
         this.sidemirrors ="Retractable Side Mirrors with Turn Signals";
     }
     
-    public void printProtonMyvi(){
+    public void antenna(){
+        System.out.println("Antenna type  :"+antenna);
+    }
+    
+    public void sidemirrors(){
+        System.out.println("Side Mirrors type  :"+sidemirrors);
+    }
+    public void printPeroduaMyvi(){
         System.out.println("Antenna type  :"+antenna);
         System.out.println("Side Mirrors type  :"+sidemirrors);
     }

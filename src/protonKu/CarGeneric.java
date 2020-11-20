@@ -2,7 +2,7 @@
 package protonKu;
 
 
-public class ProtonGen {
+public class CarGeneric {
     private String lamp, windows, tyre;
     
     public void setLamp(String newLamp){
@@ -29,7 +29,7 @@ public class ProtonGen {
         return tyre;
     }
     
-    ProtonGen(){
+    CarGeneric(){
         this.windows = "Auto";
         this.lamp ="LED";
         this.tyre ="Dunlop";
@@ -51,4 +51,9 @@ public class ProtonGen {
         System.out.println("Lamp type  :"+lamp);
         System.out.println("Tyre brand  :"+tyre);
     }
+    
+
+    
+    
+    
 }
