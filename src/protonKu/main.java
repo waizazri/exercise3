@@ -6,7 +6,7 @@ public class main {
     
     public static void main(String[] args){
         
-        //ChooseCarColor Section
+        //ChooseCarColor Section (POLYMORPHISIM wihthout EXTEND but use same method 'CarColor()' )
         Color1 c1 = new Color1();
         Color2 c2 = new Color2();
         Color3 c3 = new Color3();

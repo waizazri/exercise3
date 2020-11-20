@@ -1,7 +1,7 @@
 
 package protonKu;
 
-public class ChooseCarColor extends main {
+public class ChooseCarColor {
    
 }
     
